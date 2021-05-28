@@ -16,7 +16,7 @@ description: >-
   Welcome to ATCLOUD.NET Network Looking Glass. The information provided by and the support of this service are on a best effort basis. These are some of our Servers at main locations within our network. You can inspect our network with this webpage.
 
 # This is your website url. Please a give right url. Assets are use this URL.
-url: "https://lg.ahmetozer.org" 
+url: "https://lg.atcloud.net/" 
 #permalink:              /page/:title:output_ext
 permalink:               pretty
 
@@ -25,14 +25,14 @@ permalink:               pretty
 
 # Give information about Your company
 company:
-  url:                  https://www.example.com
-  name:                 Example Company
-  logo:                 
+  url:                  https://www.atcloud.net
+  name:                 ATCLOUD.NET LLC
+  logo:                 https://www.atcloud.net/img/symbol.svg
 
 # This is footer link. You can also just write only text.
 footer:
-  text: Other Projets
-  link: https://github.com/ahmetozer
+  text: Network Status
+  link: https://www.atcloud.net/members/serverstatus.php
   
 
 # Navbar Links

@@ -1,0 +1,128 @@
+{
+    "ServerConfig": {
+        "whois": "enabled",
+        "nslookup": "enabled",
+        "ping": "enabled",
+        "icmp": "enabled",
+        "tracert": "enabled",
+        "webcontrol": "enabled",
+        "tcp": "enabled",
+        "IPv6": "enabled",
+        "IPv4": "enabled",
+        "curl": "enabled"
+    },
+    "Servers": {
+        "Netherland": {
+            "Name": "Netherland",
+            "Description": "Research and Test Servers",
+            "ServerConfig": {
+                "whois": "disabled",
+                "webcontrol": "disabled",
+                "tcp": "disabled"
+            },
+            "Servers": {
+                "Amsterdam1": {
+                    "Name": "Amsterdam - 1",
+                    "Description": "Equinix",
+                    "Url": "https://looking-glass-controller",
+                    "ASN": "AS12735",
+                    "ServerConfig": {
+                        "whois": "enabled",
+                        "webcontrol": "disabled",
+                        "nslookup": "disabled"
+                    }
+                },
+                "Amsterdam2": {
+                    "Name": "Amsterdam - 2",
+                    "Description": "Research lab",
+                    "ServerConfig": {
+                        "IPv6": "enabled",
+                        "IPv4": "disabled"
+                    },
+                    "Url": "https://just-a-server"
+                }
+            }
+        },
+        "Turkey": {
+            "Name": "Turkey",
+            "Description": "Servers in Turkey",
+            "Servers": {
+                "Istanbul": {
+                    "Url": "http://looking-glass-controller1"
+                },
+                "Marmaris": {
+                    "Name": "Marmaris",
+                    "Description": "White-Door Router",
+                    "Servers": {
+                        "Marmaris1": {
+                            "Name": "Marmaris 1",
+                            "Description": "Turknet LSN",
+                            "ServerConfig": {
+                                "whois": "enabled",
+                                "nslookup": "enabled",
+                                "ping": "disabled",
+                                "icmp": "enabled",
+                                "tracert": "enabled",
+                                "webcontrol": "enabled",
+                                "tcp": "enabled",
+                                "IPv6": "disabled",
+                                "IPv4": "enabled",
+                                "speedtest": "enabled"
+                            },
+                            "ASN": "AS12735",
+                            "IPV4Address": "1.1.1.1",
+                            "IPV6Address": "::1.1.1.1",
+                            "Url": "https://demo-server-diffrent-port:2083"
+                        },
+                        "Marmaris2": {
+                            "Name": "Marmaris 2",
+                            "Description": "Teredo",
+                            "Url": "http://looking-glass-controller2"
+                        },
+                        "Marmaris3": {
+                            "Name": "Marmaris 3",
+                            "Url": "http://looking-glass-controller3"
+                        }
+                    }
+                }
+            }
+        },
+        "FlatEarth": {
+            "Description": "This server not available.",
+            "Url": "http://looking-glass-controller1",
+            "ServerConfig": {
+                "IPv6": "disabled",
+                "IPv4": "disabled"
+            }
+        },
+        "TestCountry": {
+            "Name": "Test Country",
+            "Description": "Servers in Test Country",
+            "Servers": {
+                "ISP": {
+                    "Url": "http://looking-glass-controller1",
+                    "ServerConfig": {
+                        "IPv6": "disabled",
+                        "IPv4": "enabled"
+                    }
+                },
+                "Area51": {
+                    "Name": "Area51",
+                    "Description": "DialUP",
+                    "Servers": {
+                        "Marmaris1": {
+                            "Name": "Home",
+                            "Description": "CGN IP",
+                            "Url": "https://example-server/"
+                        },
+                        "Marmaris2": {
+                            "Name": "Work",
+                            "Description": "Cisco Router",
+                            "Url": "http://looking-glass-controller2"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

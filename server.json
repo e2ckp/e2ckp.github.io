@@ -3,6 +3,7 @@
         "whois": "enabled",
         "nslookup": "enabled",
         "ping": "enabled",
+        "mtr": "enabled",
         "icmp": "enabled",
         "tracert": "enabled",
         "webcontrol": "enabled",
@@ -10,7 +11,6 @@
         "IPv6": "enabled",
         "IPv4": "enabled",
         "curl": "enabled",
-        "mtr": "enabled",
         "speedtest":"enabled",
         "referrers": "lg.atcloud.net,lg.tserver.net,lg.ifnet.net"
     },
@@ -41,7 +41,7 @@
                         }
                     }
                 },
-                "United Kingdom":{
+                "UnitedKingdom":{
                     "Name":"United Kingdom",
                     "Description":"1 nodes",
                     "Servers":{
@@ -136,6 +136,6 @@
             }
         }
         
-        
+
     }
 }

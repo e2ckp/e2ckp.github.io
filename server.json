@@ -9,120 +9,133 @@
         "tcp": "enabled",
         "IPv6": "enabled",
         "IPv4": "enabled",
-        "curl": "enabled"
+        "curl": "enabled",
+        "mtr": "enabled",
+        "speedtest":"enabled",
+        "referrers": "lg.atcloud.net,lg.tserver.net,lg.ifnet.net"
     },
     "Servers": {
-        "Netherland": {
-            "Name": "Netherland",
-            "Description": "Research and Test Servers",
-            "ServerConfig": {
-                "whois": "disabled",
-                "webcontrol": "disabled",
-                "tcp": "disabled"
-            },
+        "Europe": {
+            "Name": "Europe",
+            "Description": "4 nodes",
             "Servers": {
-                "Amsterdam1": {
-                    "Name": "Amsterdam - 1",
-                    "Description": "Equinix",
-                    "Url": "https://looking-glass-controller",
-                    "ASN": "AS12735",
-                    "ServerConfig": {
-                        "whois": "enabled",
-                        "webcontrol": "disabled",
-                        "nslookup": "disabled"
+                "French":{
+                    "Name":"French",
+                    "Description":"2 nodes",
+                    "Servers":{
+                        "NS2175":{
+                            "Name":"ns2175.tserver.net",
+                            "Description":"SBG",
+                            "Url":"https://ns2175.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"51.210.155.40",
+                            "IPV6Address":"2001:41d0:403:4228::100"
+                        },
+                        "NS3425":{
+                            "Name":"ns3425.tserver.net",
+                            "Description":"GRA",
+                            "Url":"https://ns3425.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"37.187.95.238",
+                            "IPV6Address":"2001:41d0:a:37ee::100"
+                        }
                     }
                 },
-                "Amsterdam2": {
-                    "Name": "Amsterdam - 2",
-                    "Description": "Research lab",
-                    "ServerConfig": {
-                        "IPv6": "enabled",
-                        "IPv4": "disabled"
-                    },
-                    "Url": "https://just-a-server"
-                }
-            }
-        },
-        "Turkey": {
-            "Name": "Turkey",
-            "Description": "Servers in Turkey",
-            "Servers": {
-                "Istanbul": {
-                    "Url": "http://looking-glass-controller1"
+                "United Kingdom":{
+                    "Name":"United Kingdom",
+                    "Description":"1 nodes",
+                    "Servers":{
+                        "NS2612":{
+                            "Name":"ns2612.tserver.net",
+                            "Description":"ERI",
+                            "Url":"https://ns2612.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"145.239.4.49",
+                            "IPV6Address":"2001:41d0:800:31::100"
+                        }
+                    }
                 },
-                "Marmaris": {
-                    "Name": "Marmaris",
-                    "Description": "White-Door Router",
-                    "Servers": {
-                        "Marmaris1": {
-                            "Name": "Marmaris 1",
-                            "Description": "Turknet LSN",
-                            "ServerConfig": {
-                                "whois": "enabled",
-                                "nslookup": "enabled",
-                                "ping": "disabled",
-                                "icmp": "enabled",
-                                "tracert": "enabled",
-                                "webcontrol": "enabled",
-                                "tcp": "enabled",
-                                "IPv6": "disabled",
-                                "IPv4": "enabled",
-                                "speedtest": "enabled"
-                            },
-                            "ASN": "AS12735",
-                            "IPV4Address": "1.1.1.1",
-                            "IPV6Address": "::1.1.1.1",
-                            "Url": "https://demo-server-diffrent-port:2083"
-                        },
-                        "Marmaris2": {
-                            "Name": "Marmaris 2",
-                            "Description": "Teredo",
-                            "Url": "http://looking-glass-controller2"
-                        },
-                        "Marmaris3": {
-                            "Name": "Marmaris 3",
-                            "Url": "http://looking-glass-controller3"
+                "Germany":{
+                    "Name":"Germany",
+                    "Description":"1 nodes",
+                    "Servers":{
+                        "NS3678":{
+                            "Name":"ns3678.tserver.net",
+                            "Description":"FRK",
+                            "Url":"https://ns3678.tserver.net",
+                            "ASN":"AS24940",
+                            "IPV4Address":"162.55.90.51",
+                            "IPV6Address":"2a01:4f8:271:198c::100"
                         }
                     }
                 }
             }
         },
-        "FlatEarth": {
-            "Description": "This server not available.",
-            "Url": "http://looking-glass-controller1",
-            "ServerConfig": {
-                "IPv6": "disabled",
-                "IPv4": "disabled"
-            }
-        },
-        "TestCountry": {
-            "Name": "Test Country",
-            "Description": "Servers in Test Country",
+
+        "NorthAmerica": {
+            "Name": "North America",
+            "Description": "3 nodes",
             "Servers": {
-                "ISP": {
-                    "Url": "http://looking-glass-controller1",
-                    "ServerConfig": {
-                        "IPv6": "disabled",
-                        "IPv4": "enabled"
+                "UnitedStates":{
+                    "Name":"United States",
+                    "Description":"2 nodes",
+                    "Servers":{
+                        "NS4906":{
+                            "Name":"ns4906.tserver.net",
+                            "Description":"HIL",
+                            "Url":"https://ns4906.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"51.81.47.170",
+                            "IPV6Address":"2604:2dc0:100:23aa::100"
+                        },
+                        "NS6209":{
+                            "Name":"ns6209.tserver.net",
+                            "Description":"VIN",
+                            "Url":"https://ns6209.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"51.81.152.39",
+                            "IPV6Address":"2604:2dc0:200:1427::100"
+                        }
                     }
                 },
-                "Area51": {
-                    "Name": "Area51",
-                    "Description": "DialUP",
-                    "Servers": {
-                        "Marmaris1": {
-                            "Name": "Home",
-                            "Description": "CGN IP",
-                            "Url": "https://example-server/"
-                        },
-                        "Marmaris2": {
-                            "Name": "Work",
-                            "Description": "Cisco Router",
-                            "Url": "http://looking-glass-controller2"
+                "Canada":{
+                    "Name":"Canada",
+                    "Description":"1 nodes",
+                    "Servers":{
+                        "NS7238":{
+                            "Name":"ns7238.tserver.net",
+                            "Description":"BHS",
+                            "Url":"https://ns7238.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"149.56.26.19",
+                            "IPV6Address":"2607:5300:61:b13::100"
+                        }
+                    }
+                }
+            }
+        },
+
+        "Asia": {
+            "Name": "Asia Pacific",
+            "Description": "1 nodes",
+            "Servers": {
+                "Singapore":{
+                    "Name":"Singapore",
+                    "Description":"1 nodes",
+                    "Servers":{
+                        "NS2458":{
+                            "Name":"ns2458.tserver.net",
+                            "Description":"SGP",
+                            "Url":"https://ns2458.tserver.net",
+                            "ASN":"AS16276",
+                            "IPV4Address":"51.79.228.120",
+                            "IPV6Address":"2402:1f00:8001:f78::100"
                         }
                     }
                 }
             }
         }
+        
+        
     }
 }

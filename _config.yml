@@ -39,17 +39,17 @@ footer:
 # At max 7 Item
 navbarLinks:
   - one:
-    name: "Link1"
-    link:  "#Link1"
+    name: "Back to Home"
+    link:  "https://www.atcloud.net/"
   - two:
-    name: "Link2"
-    link:  "#Link2"
+    name: "Cloud VPS"
+    link:  "https://www.atcloud.net/vps"
   - three:
-    name: "Link3"
-    link:  "#Link3"
+    name: "Storage VPS"
+    link:  "https://www.atcloud.net/storage"
   - four:
-    name: "Link4"
-    link:  "#Link4"
+    name: "Client Area"
+    link:  "https://www.atcloud.net/members/"
 
 
 # Build settings

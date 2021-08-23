@@ -82,7 +82,7 @@
                     "Servers":{
                         "NS4906":{
                             "Name":"ns4906.tserver.net",
-                            "Description":"HIL",
+                            "Description":"VIN",
                             "Url":"https://ns4906.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.81.47.170",
@@ -90,7 +90,7 @@
                         },
                         "NS6209":{
                             "Name":"ns6209.tserver.net",
-                            "Description":"VIN",
+                            "Description":"HIL",
                             "Url":"https://ns6209.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.81.152.39",

@@ -25,7 +25,7 @@
                     "Servers":{
                         "NS2175":{
                             "Name":"ns2175.tserver.net",
-                            "Description":"SBG",
+                            "Description":"SBG,Strasbourg",
                             "Url":"https://ns2175.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.210.155.40",
@@ -33,7 +33,7 @@
                         },
                         "NS3425":{
                             "Name":"ns3425.tserver.net",
-                            "Description":"GRA",
+                            "Description":"GRA,Gravelines",
                             "Url":"https://ns3425.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"37.187.95.238",
@@ -47,7 +47,7 @@
                     "Servers":{
                         "NS2612":{
                             "Name":"ns2612.tserver.net",
-                            "Description":"ERI",
+                            "Description":"ERI,London",
                             "Url":"https://ns2612.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"145.239.4.49",
@@ -61,7 +61,7 @@
                     "Servers":{
                         "NS3678":{
                             "Name":"ns3678.tserver.net",
-                            "Description":"FRK",
+                            "Description":"FRK,Frankfurt",
                             "Url":"https://ns3678.tserver.net:8443",
                             "ASN":"AS24940",
                             "IPV4Address":"162.55.90.51",
@@ -82,7 +82,7 @@
                     "Servers":{
                         "NS4906":{
                             "Name":"ns4906.tserver.net",
-                            "Description":"VIN",
+                            "Description":"VIN,Virginia",
                             "Url":"https://ns4906.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.81.47.170",
@@ -90,7 +90,7 @@
                         },
                         "NS6209":{
                             "Name":"ns6209.tserver.net",
-                            "Description":"HIL",
+                            "Description":"HIL,Oregon",
                             "Url":"https://ns6209.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.81.152.39",
@@ -104,7 +104,7 @@
                     "Servers":{
                         "NS7238":{
                             "Name":"ns7238.tserver.net",
-                            "Description":"BHS",
+                            "Description":"BHS,Montreal",
                             "Url":"https://ns7238.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"149.56.26.19",
@@ -125,7 +125,7 @@
                     "Servers":{
                         "NS2458":{
                             "Name":"ns2458.tserver.net",
-                            "Description":"SGP",
+                            "Description":"SGP,Singapore",
                             "Url":"https://ns2458.tserver.net:8443",
                             "ASN":"AS16276",
                             "IPV4Address":"51.79.228.120",

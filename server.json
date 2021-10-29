@@ -45,13 +45,13 @@
                     "Name":"United Kingdom",
                     "Description":"1 nodes",
                     "Servers":{
-                        "NS2612":{
-                            "Name":"ns2612.tserver.net",
+                        "NS2618":{
+                            "Name":"ns2618.tserver.net",
                             "Description":"ERI,London",
-                            "Url":"https://ns2612.tserver.net:8443",
+                            "Url":"https://ns2618.tserver.net:8443",
                             "ASN":"AS16276",
-                            "IPV4Address":"145.239.4.49",
-                            "IPV6Address":"2001:41d0:800:31::100"
+                            "IPV4Address":"51.89.153.201",
+                            "IPV6Address":"2001:41d0:800:1fc9::100"
                         }
                     }
                 },
